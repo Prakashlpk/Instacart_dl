@@ -149,21 +149,20 @@ The model provides insights for four key business areas:
 4. **Marketing Segmentation**: Categorizes customers by reorder intent
 
 ## File Structure
+instacart_project.ipynb             # Main training notebook
+streamlit_app.py                    # Web interface for predictions
+instacart_model.keras              # Trained model (generated)
+scaler.pkl                         # Feature scaler (generated)
+requirements.txt                   # Python dependencies
+README.md                          # Project documentation
 
-
-├── instacart_project.ipynb             # Main training notebook
-├── streamlit_app.py                    # Web interface for predictions
-├── instacart_model.keras              # Trained model (generated)
-├── scaler.pkl                         # Feature scaler (generated)
-├── requirements.txt                   # Python dependencies
-├── README.md                          # Project documentation
-└── data/
-    ├── orders.csv
-    ├── order_products__train.csv
-    ├── order_products__prior.csv
-    ├── products.csv
-    ├── aisles.csv
-    └── departments.csv
+data
+    orders.csv
+    order_products__train.csv
+    order_products__prior.csv
+    products.csv
+    aisles.csv
+    departments.csv
 
 
 ## Key Features
